@@ -1,0 +1,106 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "fullName": "Harry Potter",
+            "email": "potter@hogwarts.edu",
+            "cohort": 4
+        },
+        {
+            "id": 2,
+            "fullName": "Hermione Granger",
+            "email": "granger@hogwarts.edu",
+            "cohort": 4
+        },
+        {
+            "id": 3,
+            "fullName": "Ron Weasley",
+            "email": "weasley6@hogwarts.edu",
+            "cohort": 4
+        },
+        {
+            "id": 4,
+            "fullName": "Ginny Weasley",
+            "email": "weasley7@hogwarts.edu",
+            "cohort": 3
+        },
+        {
+            "id": 5,
+            "fullName": "Luna Lovegood",
+            "email": "lovegood@hogwarts.edu",
+            "cohort": 3
+        }
+    ],
+
+    "posts": [
+        {
+            "id": 1,
+            "title": "Quidditch Tryouts",
+            "body": "much fun. loved it. 10/10. let's go gryffindor",
+            "date": "09/18/1993",
+            "topicId": 2,
+            "userId": 3
+        },
+        {
+            "id": 2,
+            "title": "S.P.E.W.",
+            "body": "modern day slavery. don't",
+            "date": "08/18/1994",
+            "topicId": 1,
+            "userId": 2
+        },
+        {
+            "id": 3,
+            "title": "The one?",
+            "body": "why me",
+            "date": "12/04/1991",
+            "topicId": 3,
+            "userId": 1
+        },
+        {
+            "id": 4,
+            "title": "A Family History of Quidditch All Stars",
+            "body": "Weasleys in Quidditch, Roles they played, etc..",
+            "date": "02/22/1995",
+            "topicId": 2,
+            "userId": 4
+        },
+        {
+            "id": 5,
+            "title": "Befriending Threstrals",
+            "body": "a silver lining in a sea of sorrow",
+            "date": "03/10/1994",
+            "topicId": 1,
+            "userId": 5
+        } 
+    ],
+    "likedPosts": [
+        {
+            "id": 1,
+            "userId": 1,
+            "postId": 1,
+            "liked": true
+        }
+    ],
+    "topics": [
+        {
+            "id": 1,
+            "topic": "Magical Creatures"
+        },
+        {
+            "id": 2,
+            "topic": "Quidditch"
+        },
+        {
+            "id": 3,
+            "topic": "Prophecy"
+        },        {
+            "id": 4,
+            "topic": "Academics"
+        },
+        {
+            "id": 5,
+            "topic": "Musings"
+        }
+    ]
+}
