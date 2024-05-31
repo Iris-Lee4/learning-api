@@ -54,7 +54,7 @@
             "title": "The one?",
             "body": "why me",
             "date": "12/04/1991",
-            "topicId": 3,
+            "topicId": 5,
             "userId": 1
         },
         {
@@ -93,7 +93,7 @@
         },
         {
             "id": 3,
-            "topic": "Prophecy"
+            "topic": "Off Campus"
         },        {
             "id": 4,
             "topic": "Academics"
